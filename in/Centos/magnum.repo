@@ -1,6 +1,0 @@
-[magnum]
-name=Magnum Solutions CPAN RPMs for Centos $releasever - $basearch
-baseurl=
-        http://rpm.mag-sol.com/Centos/$releasever/$basearch/
-enabled=1
-gpgcheck=0
