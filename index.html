@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T65658WDJ3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-T65658WDJ3');
+    </script>
+    <title>Magnum Solutions CPAN RPM Repository</title>
+
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="alternate" type="application/rss+xml" title="Latest Fedora RPMs" href="https://rpm.mag-sol.com/fedora.rss" />
+    <link rel="alternate" type="application/rss+xml" title="Latest Centos RPMs" href="https://rpm.mag-sol.com/centos.rss" />
+    <style>
+      p.lead {
+        background-color: #dc3545 !important; /* Use !important to ensure override */
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <ul class="list-group">
+            <li class="list-group-item">Navigation</li>
+            <li class="list-group-item"><a href="https://mag-sol.com/"><i class="bi bi-house-door-fill"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <div>
+            <h1 class="mb-4 mt-4">Magnum Solutions CPAN RPM Repository</h1>
+          </div>
+
+          <div class="row">
+            <p class="lead">The Magnum Solutions CPAN RPM repository has closed down.</p>
+
+            <p>While we still believe that if you're installing CPAN modules to be
+              used by the system Perl, it's a good to use a package manager, we do
+              not think that you should be using the system Perl to run your own
+              applications. Instead, we recommend using a tool like 
+              <a href="https://perlbrew.pl/">perlbrew</a> to install your own Perl.
+              Alternatively, you could use a containerisation tool like
+              <a href="https://www.docker.com/">Docker</a> to isolate your application
+              from the underlying system.</p>
+
+              <p>If you need help setting up these alternatives (or building your own
+                RPMs from CPAN modules), please get in touch with us at
+                <a href="mailto:hello@mag-sol.com">hello@mag-sol.com</a>.</p>
+              </p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"></script>
+  </body>
+</html>
